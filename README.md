@@ -14,18 +14,18 @@ ADMIN USER ne_plsqlauca IDENTIFIED BY password
 FILE_NAME_CONVERT = ( 'C:\app\NELYSE\product\21c\oradata\XE\pdbseed\',  'C:\app\NELYSE\product\21c\oradata\XE\XEPDB1\plsql_class2024db\');
 ALTER PLUGGABLE DATABASE plsql_class2024db OPEN;
 
-### Create ne_to_delete_pdb
+#### Create ne_to_delete_pdb
 
 CREATE PLUGGABLE DATABASE ne_to_delete_pdb 
 ADMIN USER ne_plsqlauca IDENTIFIED BY password 
 FILE_NAME_CONVERT = ( 'C:\app\NELYSE\product\21c\oradata\XE\pdbseed\',  'C:\app\NELYSE\product\21c\oradata\XE\XEPDB1\/ne_to_delete_pdb/');
 ALTER PLUGGABLE DATABASE ne_to_delete_pdb OPEN;
 
-### Delete ne_to_delete_pdb
+#### Delete ne_to_delete_pdb
 
 DROP PLUGGABLE DATABASE ne_to_delete_pdb INCLUDING DATAFILES;
 
-### Screenshots
+###### Screenshots
 1.This is the screenshot of Creating pluggable database named 'plsql_class2024db'.
 
 ![plsql_class2024db](https://github.com/user-attachments/assets/92509100-58bd-401a-a22c-47d2d7293ee4)
