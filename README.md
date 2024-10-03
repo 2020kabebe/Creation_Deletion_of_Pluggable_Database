@@ -8,6 +8,7 @@
 ## SQL Commands Used
 
  ## Create plsql_class2024db
+ -This command creates a new Pluggable Database (PDB) named `plsql_class2024db` with an admin user named 'ne_plsqlauca'.
  
  CREATE PLUGGABLE DATABASE plsql_class2024db 
 ADMIN USER ne_plsqlauca IDENTIFIED BY password 
@@ -15,6 +16,7 @@ FILE_NAME_CONVERT = ( 'C:\app\NELYSE\product\21c\oradata\XE\pdbseed\',  'C:\app\
 ALTER PLUGGABLE DATABASE plsql_class2024db OPEN;
 
  ## Create ne_to_delete_pdb
+ -This command creates a temporary Pluggable Database (PDB) named ne_to_delete_pdb with an admin user named 'ne_plsqlauca'.
  
  CREATE PLUGGABLE DATABASE ne_to_delete_pdb 
 ADMIN USER ne_plsqlauca IDENTIFIED BY password 
@@ -22,6 +24,7 @@ FILE_NAME_CONVERT = ( 'C:\app\NELYSE\product\21c\oradata\XE\pdbseed\',  'C:\app\
 ALTER PLUGGABLE DATABASE ne_to_delete_pdb OPEN;
 
  ## Delete ne_to_delete_pdb
+ -This command deletes the temporary PDB ne_to_delete_pdb and includes its data files
 
  DROP PLUGGABLE DATABASE ne_to_delete_pdb INCLUDING DATAFILES;
 
@@ -48,7 +51,10 @@ ALTER PLUGGABLE DATABASE ne_to_delete_pdb OPEN;
 ![SAMPLE_DASHBOARD](https://github.com/user-attachments/assets/753eaad7-d161-4f3f-b3fd-7a510fb6cd70)
 
 
-## Done by Nelyse!!!!
+                                                           
+                                                           
+                                                                     
+                                                                     ## Done by Nelyse!!!!
 
 
 
