@@ -45,7 +45,7 @@ ALTER PLUGGABLE DATABASE ne_to_delete_pdb OPEN;
 
 5.This is the screenshot of 'Oracle Enterprise Manager Dashboard'.
 
-![diagram](https://github.com/user-attachments/assets/74cae6ea-52c7-4b63-b05e-aca25081a67c)
+![SAMPLE_DASHBOARD](https://github.com/user-attachments/assets/753eaad7-d161-4f3f-b3fd-7a510fb6cd70)
 
 
 ## Done by Nelyse!!!!
